@@ -1,0 +1,119 @@
+/* Color Palette
+
+https://coolors.co/22223b-4a4e69-9a8c98-c9ada7-f2e9e4
+
+--space-cadet: #22223b;
+--independence: #4a4e69;
+--heliotrope-gray: #9a8c98;
+--silver-pink: #c9ada7;
+--isabella-line: #f2e9e4; 
+
+Setting a base font size of 10px give us easier rem calculations
+Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+
+*/
+
+/* ------ Global Styles ------ */
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+  color: #22223b;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #4a4e69;
+}
+
+a:visited {
+  color: #9a8c98;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f2e9e4;
+}
+
+/* ------ Image Section ------ */
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 5px auto;
+}
+
+#img-div {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+/* ------ Tribute Section ------ */
+
+ul {
+  max-width: 650px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+#headline {
+  margin: 50px 0;
+}
+
+/* ------ Quote Section ------ */
+
+blockquote {
+  font-style: italic;
+  text-align: left;
+  max-width: 610px;
+  margin: 0 auto 50px;
+  padding: 10px;
+  border-radius: 12px;
+  background: #4a4e69;
+  color: #f2e9e4;
+}
+
+/* ------ Media Queries ------ */
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+
+  #main {
+    margin: 0;
+  }
+
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
